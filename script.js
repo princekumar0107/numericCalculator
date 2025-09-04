@@ -7,7 +7,7 @@ let string= " "; // jisme ham apna result store karenge
  arr.forEach(button => { // for each loop chalayenge for array
     button.addEventListener('click', (e) =>{ //  jab bhi koi button par click krega to kya perform krega 
                                         // jab bhi hu button par click krenge to "e" pass hoga
-                                        // => (arrow function means) ki jab bhi hum button par click kre to kya ho.
+                                        
         if(e.target.innerHTML == '='){ // agar equal to eval function chala denge
             string =eval(string) //eval maens evaluate string ko mathemetically convert karta hai
             input.value=string;
